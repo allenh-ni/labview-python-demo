@@ -1,5 +1,0 @@
-Example Slack Workspace
-
-Workspace URL: https://acme-o519989.slack.com
-API token: xoxb-626226701445-614843941202-VxQ9ikZlFiSLhgmTvIOQmBls
-Channel: python-node-demo
