@@ -1,10 +1,8 @@
 import os
 import slack
+import traceback
 
-# Slack API TOKEN for Allen Hsu's Slack channel and bot.  https://acme-o519989.slack.com/
-#os.environ["SLACK_API_TOKEN"] = "xoxb-626226701445-614843941202-VxQ9ikZlFiSLhgmTvIOQmBls"
-#slack_token = os.environ["SLACK_API_TOKEN"]
-#client = slack.WebClient(token=os.environ['SLACK_API_TOKEN'])
+# Install slack package with "pip install slackclient=2.0.0"
 
 def send_message(slack_api_token, slack_channel, message):
     os.environ["SLACK_API_TOKEN"] = slack_api_token
@@ -31,6 +29,3 @@ def send_image(slack_api_token, slack_channel, image_filepath):
         traceback.print_exc()
         print('Error sending image')
 
-
-# postMessage(message="Test passed. Would you like to run the test again?", imageAddress=r"C:\Users\sw marketing\Desktop\BYOATE\Support files & VIs\Test Code\Filter Test\CurrentTest.jpg")
-# waitForResponse()

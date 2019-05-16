@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="18008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -13,6 +13,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="images" Type="Folder">
 			<Item Name="Example_FailedTest.bmp" Type="Document" URL="../images/Example_FailedTest.bmp"/>
+		</Item>
+		<Item Name="support" Type="Folder">
+			<Item Name="Measure DUT.vi" Type="VI" URL="../support/Measure DUT.vi"/>
 		</Item>
 		<Item Name="Slack API.lvlib" Type="Library" URL="../Slack API/Slack API.lvlib"/>
 		<Item Name="[Example] Send Message and Image to Slack Channel.vi" Type="VI" URL="../[Example] Send Message and Image to Slack Channel.vi"/>
